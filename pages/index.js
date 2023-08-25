@@ -11,8 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" max-w-[1440] mx-auto my-0">
-        <NabBar/>
+      <main>
+      <div className=" max-w-[1440] mx-auto my-0">
+      <NabBar/>
+      </div>
+        
       </main>
     </div>
   );
