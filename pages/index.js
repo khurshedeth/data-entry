@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { SiTransportforireland } from "react-icons/si";
+
 import NabBar from "../components/NabBar";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
@@ -11,11 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-      <div className=" max-w-[1440] mx-auto my-0">
-      <NabBar/>
-      </div>
-        
+      <main className=" max-w-[1440] mx-auto my-0">
+        <NabBar />
+        <Hero/>
       </main>
     </div>
   );

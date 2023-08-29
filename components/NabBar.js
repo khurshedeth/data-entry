@@ -3,15 +3,21 @@ import khurshid from "../assets/khurshid.png";
 import menu from "../assets/menu.png";
 import cross from "../assets/cross.png";
 import Image from "next/image";
-import { FiDownload } from "react-icons/fi";
+import {FiDownload}  from "react-icons/fi";
 
 function NavBar() {
-  const [isclicked, setIsclicked] = useState(true);
+  const [isclicked, setIsclicked] = useState(false);
 
   const clickHandler = () => {
     setIsclicked(!isclicked);
   };
 
+  const downLoader=()=>{
+    const link=document.createElement("a");
+    link.href=Resume;
+    link.download="port_folio.pdf";
+    link.click();
+  }
   return (
     <nav
       className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center
@@ -69,10 +75,10 @@ function NavBar() {
           <li className=" cursor-pointer">
             <a href="#">Projects</a>
           </li>
-          <div className=" cursor-pointer flex items-center gap-2.5">
+          <a className=" cursor-pointer flex items-center gap-2.5">
             Download Resume
             <FiDownload />
-          </div>
+          </a>
         </ul>
       )}
     </nav>
