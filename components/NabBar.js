@@ -43,7 +43,7 @@ function NavBar() {
             projects
           </a>
         </li>
-        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg">
+        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg" href="../public/port_folio.pdf" download>
           Resume
           <FiDownload />
         </div>
@@ -75,7 +75,7 @@ function NavBar() {
           <li className=" cursor-pointer">
             <a href="#">Projects</a>
           </li>
-          <a className=" cursor-pointer flex items-center gap-2.5">
+          <a className=" cursor-pointer flex items-center gap-2.5" href="../public/port_folio.pdf" download>
             Download Resume
             <FiDownload />
           </a>
