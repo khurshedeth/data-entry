@@ -1,6 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from "react-icons/ai"
+import photo from "../assets/khurhed-photo-removebg-preview.png";
+import Image from "next/image";
+
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
+
 function Hero() {
   return (
     <div
@@ -18,17 +26,36 @@ function Hero() {
           Khurshed Aalam
         </h3>
         <h3 className=" text-[3rem] max-md:text-[1.5rem]">
-          I am frontend developer
-          <br />and<br/>
-          Web3 enthusiast
+          I am frontend developer<br/> and Web3 enthusiast
         </h3>
-        <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem] text-[2rem]">
-          <a><AiFillGithub/></a>
-          <a><AiFillLinkedin/></a>
-          <a><AiFillTwitterCircle/></a>
+        <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
+          <a href="https://github.com/khurshedeth/" target="_blank" rel="error">
+            <AiFillGithub className="w-[30px] h-[30px] cursor-pointer" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/khurshd-alam/"
+            target="_blank"
+            rel="noref"
+          >
+            <AiFillLinkedin className=" w-[30px] h-[30px] cursor-pointer" />
+          </a>
+          <a href="https://twitter.com/khurshedeth" target="_blank" rel="rela">
+            <AiFillTwitterCircle className=" w-[30px] h-[30px] cursor-pointer" />
+          </a>
         </div>
       </motion.div>
-      <div>image</div>
+      <motion.div
+        initial={{ x: 0, opacity: 0 }}
+        whileInView={{ y: [250, 0], opacity: 1 }}
+        transition={{ duration: 1.5 }}
+        viewport={{ once: true }}
+      >
+        <Image
+          src={photo}
+          alt="hero"
+          className=" w-[500px] rounded-full drop-shadow-xl"
+        />
+      </motion.div>
     </div>
   );
 }
