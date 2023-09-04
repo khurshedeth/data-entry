@@ -26,7 +26,8 @@ function Hero() {
           Khurshed Aalam
         </h3>
         <h3 className=" text-[3rem] max-md:text-[1.5rem]">
-          I am frontend developer<br/> and Web3 enthusiast
+          I am frontend developer
+          <br /> and Web3 enthusiast
         </h3>
         <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
           <a href="https://github.com/khurshedeth/" target="_blank" rel="error">
@@ -53,7 +54,7 @@ function Hero() {
         <Image
           src={photo}
           alt="hero"
-          className=" w-[500px] rounded-full drop-shadow-xl"
+          className=" w-[500px] rounded-full drop-shadow-xl opacity-50"
         />
       </motion.div>
     </div>

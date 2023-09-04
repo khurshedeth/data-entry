@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import NabBar from "../components/NabBar";
 import Hero from "../components/Hero";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className=" max-w-[1440] mx-auto my-0">
         <NabBar />
         <Hero/>
+        <About/>
       </main>
     </div>
   );
