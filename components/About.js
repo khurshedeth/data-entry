@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
+import khurshed from "../assets/khurhed-photo.jpg";
 function About() {
   return (
     <div className="pt-[12rem] mx-[4rem] max-xl:mx-[1rem]" id="about">
@@ -12,8 +13,17 @@ function About() {
       >
         About me
       </motion.h1>
-      <div>
-      
+      <div className=" flex gap-[10rem] max-xl:gap-[3rem] max-xl:flex-wrap justify-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ x: [-100, 0], opacity: 1 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+        >
+          <Image src={khurshed} alt="error" className="w-[50%] max-xl:w-[100%]" />
+        </motion.div>
+
+        <div>about pharases</div>
       </div>
     </div>
   );
