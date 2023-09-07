@@ -18,7 +18,7 @@ export default function Home() {
         <NabBar />
         <Hero />
         <About />
-        <Projects />
+        <Projects/>
       </main>
     </div>
   );
