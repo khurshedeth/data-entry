@@ -38,7 +38,7 @@ function About() {
           </h1>
           <p className="text-[#838697] text-[2rem] max-md:text-[1.5rem]">
             After dedicating a year to frontend development, I have fortified my
-            foundational knowledge in web engineering. I'm now enthusiastic
+            foundational knowledge in web engineering. I am now enthusiastic
             about applying these skills to tackle complex projects that will not
             only enhance my current skill set but also broaden my technological
             repertoire.
