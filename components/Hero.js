@@ -54,7 +54,7 @@ function Hero() {
         <Image
           src={photo}
           alt="hero"
-          className=" w-[500px] rounded-full drop-shadow-xl opacity-50"
+          className=" w-[300px] rounded-full drop-shadow-xl opacity-50"
         />
       </motion.div>
     </div>
