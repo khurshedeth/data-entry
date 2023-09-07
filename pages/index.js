@@ -3,6 +3,7 @@ import Head from "next/head";
 import NabBar from "../components/NabBar";
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
 
       <main className=" max-w-[1440] mx-auto my-0">
         <NabBar />
-        <Hero/>
-        <About/>
+        <Hero />
+        <About />
+        <Projects />
       </main>
     </div>
   );

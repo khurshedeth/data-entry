@@ -23,7 +23,7 @@ function About() {
           <Image
             src={khurshed}
             alt="error"
-            className="w-[100%] h-[90%] rounded-xl max-xl:w-[100%] opacity-40"
+            className="w-[100%] h-[100%] rounded-xl max-xl:w-[100%] opacity-40"
           />
         </motion.div>
 
