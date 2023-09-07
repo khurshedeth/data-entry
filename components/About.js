@@ -18,12 +18,12 @@ function About() {
           initial={{ opacity: 0 }}
           whileInView={{ x: [-100, 0], opacity: 1 }}
           transition={{ duration: 1 }}
-          viewport={{once:true}}
+          viewport={{ once: true }}
         >
           <Image
             src={khurshed}
             alt="error"
-            className="w-[100%] h-[90%] rounded-xl max-xl:w-[100%] opacity-"
+            className="w-[100%] h-[90%] rounded-xl max-xl:w-[100%] opacity-40"
           />
         </motion.div>
 
