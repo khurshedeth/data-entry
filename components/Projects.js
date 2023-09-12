@@ -6,7 +6,7 @@ import Project_2 from "../assets/Pro-2.png";
 import Project_3 from "../assets/Pro-3.png";
 import Project_4 from "../assets/Pro-4.png";
 import Project_5 from "../assets/Pro-5.png";
-import Project_6 from "../assets/Pro-6.png";
+import Project_6 from "../assets/updated .png";
 
 function Projects() {
   return (
