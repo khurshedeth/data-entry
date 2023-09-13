@@ -18,7 +18,7 @@ function Project(props) {
           <a
             href={props.github}
             target="_blank"
-            rel="norefd"
+            rel="norefff"
             className=" inline-flex gap[0.5rem] items-center px-3 py-2  
             text-sm font-medium text-center rounded-md border focus:ring-4 focus:outline-none mr-2 mb-2 border-gray-600 text-gray-400 hover:text-white hover:bg-gray-600 focus:ring-gray-800"
           >
@@ -26,7 +26,7 @@ function Project(props) {
             <AiFillGithub  className=" w-[18px] h-[18px]"/>
           </a>
           {props.demo && (
-            <a href={props.demo} target="_blank" rel="no refff" className=" inline-flex gap-[0.5rem] items-center px-3 py-2 text-sm font-medium text-center rounded-md border focus:outline-none mr-2 mb-2 focus:ring-4 border-gray-600 text-gray-400 hover:text-white hover:bg-gray-600 focus:ring-gray-800">
+            <a href={props.demo} target="_blank" rel="noreff" className=" inline-flex gap-[0.5rem] items-center px-3 py-2 text-sm font-medium text-center rounded-md border focus:outline-none mr-2 mb-2 focus:ring-4 border-gray-600 text-gray-400 hover:text-white hover:bg-gray-600 focus:ring-gray-800">
               demo
               <AiFillEye className=" w-[18px] h-[18px]"/>
             </a>
