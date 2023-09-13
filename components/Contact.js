@@ -17,7 +17,7 @@ function Contact() {
           transition={{ duration: 1 }}
           className=" text-[2rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400"
         >
-          Don't be unknown
+          Do not be unknown
         </motion.h1>
         <motion.div
           initial={{ x: 0, y: 0 }}
@@ -25,9 +25,9 @@ function Contact() {
           transition={{ duration: 1 }}
         >
           <p className=" text-[1.5rem] mb-[2rem]">
-            {" "}
+          
             Feel free to punch me an email if you believe our compatibility is
-            strong, and you would like to collaborate. Let us make the most of our
+            strong and you would like to collaborate. Let us make the most of our
             time together
           </p>
           <h1 className="flex items-center gap-[1rem] text-[1.5rem] max-lg:text-[1rem]">
