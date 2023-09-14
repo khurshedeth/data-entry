@@ -31,43 +31,46 @@ function Projects() {
       >
         <Project
           img={Project_1}
-          desc="rtgrgertgeg"
-          title="My personal portfolio website"
+          desc="My Personal Portfolio Website is a digital showcase of my professional and creative journey
+          and showcase of my skills"
+          title="My Minimal Personal Portfolio Website"
           github="https://github.com/khurshedeth/portfolio_khurshid"
           demo="https://mineportfolio-khurshid.vercel.app/"
         />
         <Project
           img={Project_2}
-          desc={`iuggg`}
-          title="vjuyfvjfjfv"
+          desc="NFT Connect - Where Digital Collectibles Meet Blockchain Innovation"
+          title="A Non-Fungible Token (NFT) platform is a revolutionary digital marketplace"
           demo="https://www.mintmaster.app/"
+          github="https://github.com/khurshedeth/"
         />
         <Project
           img={Project_3}
-          desc={`lorem epsum jhola leke khisum`}
+          desc="The E-commerce Web App is a dynamic online shopping platform designed to provide users with a seamless and enjoyable shopping experience"
           title="E-commerce web app"
           github="https://github.com/khurshedeth/shopping"
           demo="https://vercel.com/khurshedeth/shopping"
         />
         <Project
           img={Project_4}
-          desc={`lorem epsum jhola leke khisum`}
-          title="Multiple sender token and NFT"
+          desc="Explore the exciting world of blockchain and digital assets with our project"
+          title=" Multiple Sender Token and NFT Integration"
           demo="https://transmit.strip.finance/"
+          github="https://github.com/khurshedeth/"
         />
         <Project
           img={Project_5}
-          desc={`lorem epsum jhola leke khisum`}
-          title="Multiple sender token and NFT"
+          desc="Employee Management System is a comprehensive solution designed to optimize the management of employee"
+          title="AN Employee Manaagement System (developing)"
           demo="https://emp-mng-api.vercel.app/"
           github="https://github.com/khurshedeth/EmpMngAPI"
         />
         <Project
           img={Project_6}
-          desc={`lorem epsum jhola leke khisum`}
-          title="Multiple sender token and NFT"
-          demo="https://emp-mng-api.vercel.app/"
-          github="https://github.com/khurshedeth/EmpMngAPI"
+          desc="The Weather Forecast App is your go-to digital companion for staying informed about the weather conditions in your area and around city"
+          title="Weather forecast App"
+          demo="https://my-weather-livid.vercel.app/"
+          github="https://github.com/khurshedeth/my-weather"
         />
       </motion.div>
     </div>
