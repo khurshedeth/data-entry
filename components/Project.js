@@ -19,7 +19,7 @@ function Project(props) {
             href={props.github}
             target="_blank"
             rel="norefff"
-            className=" inline-flex gap[0.5rem] items-center px-3 py-2  
+            className=" inline-flex gap-[0.5rem] items-center px-3 py-2  
             text-sm font-medium text-center rounded-md border focus:ring-4 focus:outline-none mr-2 mb-2 border-gray-600 text-gray-400 hover:text-white hover:bg-gray-600 focus:ring-gray-800"
           >
             Github

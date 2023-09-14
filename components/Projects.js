@@ -49,7 +49,7 @@ function Projects() {
           desc="The E-commerce Web App is a dynamic online shopping platform designed to provide users with a seamless and enjoyable shopping experience"
           title="E-commerce web app"
           github="https://github.com/khurshedeth/shopping"
-          demo="https://vercel.com/khurshedeth/shopping"
+          demo="https://shopping-drab.vercel.app/"
         />
         <Project
           img={Project_4}

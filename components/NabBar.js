@@ -29,17 +29,17 @@ function NavBar() {
 
       <ul className="flex space-x-6 text-lg items-center max-md:hidden capitalize">
         <li className=" cursor-pointer">
-          <a href="#" onClick={clickHandler}>
+          <a href="#about">
             about
           </a>
         </li>
         <li className=" cursor-pointer">
-          <a href="#" onClick={clickHandler}>
+          <a href="#contact">
             contact
           </a>
         </li>
         <li className=" cursor-pointer">
-          <a href="#" onClick={clickHandler}>
+          <a href="#Projects">
             projects
           </a>
         </li>
@@ -67,13 +67,13 @@ function NavBar() {
       {isclicked && (
         <ul className=" w-full absolute right-0 top-[100px] flex flex-col items-center gap-[20px] py-[30px] rounded-2xl bg-[#351B57] backdrop-filter backdrop-blur-lg">
           <li className=" cursor-pointer">
-            <a href="# "> About</a>
+            <a href="#about" onClick={clickHandler}> About</a>
           </li>
           <li className=" cursor-pointer">
-            <a href="#">Contact</a>
+            <a href="#contact" onClick={clickHandler}>Contact</a>
           </li>
           <li className=" cursor-pointer">
-            <a href="#">Projects</a>
+            <a href="#Projects" onClick={clickHandler}>Projects</a>
           </li>
           <a className=" cursor-pointer flex items-center gap-2.5" href="../public/port_folio.pdf" download>
             Download Resume
