@@ -5,6 +5,7 @@ import cross from "../assets/cross.png";
 import Image from "next/image";
 import {FiDownload}  from "react-icons/fi";
 
+
 function NavBar() {
   const [isclicked, setIsclicked] = useState(false);
 
@@ -12,12 +13,14 @@ function NavBar() {
     setIsclicked(!isclicked);
   };
 
-  const downLoader=()=>{
-    const link=document.createElement("a");
-    link.href=Resume;
-    link.download="port_folio.pdf";
+  const downloadResume = () => {
+    const resumeUrl = "/Hyd_CV.pdf"; // Make sure this path matches the location of your PDF in the public folder
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Hyd_CV.pdf"; // Set the desired download filename
     link.click();
-  }
+  };
+
   return (
     <nav
       className="z-[1000] backdrop-filter backdrop-blur-lg flex my-6 mx-[4rem] max-md:mx-[1rem] px-[2rem] py-[0.6rem] justify-between items-center
@@ -43,7 +46,7 @@ function NavBar() {
             projects
           </a>
         </li>
-        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg" href="../public/port_folio.pdf" download>
+        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg" onClick={downloadResume}>
           Resume
           <FiDownload />
         </div>
@@ -75,7 +78,7 @@ function NavBar() {
           <li className=" cursor-pointer">
             <a href="#Projects" onClick={clickHandler}>Projects</a>
           </li>
-          <a className=" cursor-pointer flex items-center gap-2.5" href="../public/port_folio.pdf" download>
+          <a className=" cursor-pointer flex items-center gap-2.5" onClick={downloadResume}>
             Download Resume
             <FiDownload />
           </a>
