@@ -46,9 +46,9 @@ function NavBar() {
             projects
           </a>
         </li>
-        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg" onClick={downloadResume}>
+        <div className=" flex gap-2.5 items-center bg-gradient-to-r from-[#7000fa] px-[15px] py-2 hover:bg-gradient-to-b rounded-lg cursor-pointer" onClick={downloadResume}>
           Resume
-          <FiDownload className=" cursor-pointer" />
+          <FiDownload  />
         </div>
       </ul>
       {!isclicked && (
@@ -80,7 +80,7 @@ function NavBar() {
           </li>
           <a className=" cursor-pointer flex items-center gap-2.5" onClick={downloadResume}>
             Download Resume
-            <FiDownload className=" cursor-pointer" />
+            <FiDownload />
           </a>
         </ul>
       )}
