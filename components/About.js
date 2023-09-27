@@ -34,7 +34,7 @@ function About() {
           className=" w-[100%] flex flex-col gap-[2rem]"
         >
           <h1 className=" text-[2.5rem] max-md:text-[2rem]">
-            I am Frontend engineer mainly focused on React Ecosytem
+            I am Frontend engineer mainly focused on React and Next Ecosytem
           </h1>
           <p className="text-[#838697] text-[2rem] max-md:text-[1.5rem]">
             After dedicating a year to frontend development, I have fortified my
