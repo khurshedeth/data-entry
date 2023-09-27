@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div
       className=" flex justify-between items-center mx-[4rem]
-     mt-[4rem] max-lg:mx-[1rem] max-lg:selection:mt-[2rem] max-lg:gap-[4rem] max-lg:flex-col"
+     mt-[4rem] max-lg:mx-[1rem] max-lg:mt-[2rem] max-lg:gap-[4rem] max-lg:flex-col"
     >
       <motion.div
         initial={{ x: 0, opacity: 0 }}
