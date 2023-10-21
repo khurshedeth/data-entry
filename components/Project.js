@@ -5,7 +5,7 @@ function Project(props) {
   return (
     <div className="max-w-sm border border-e-gray-200 rounded-lg shadow bg-[#101319] dark:border-gray-700">
       <a href={props.demo} target="_blank" rel="noreffer">
-        <Image src={props.img} alt="error" className=" rounded-lg"/>
+        <Image src={props.img} alt="error" className=" rounded-t-lg"/>
       </a>
       <div className=" p-5">
         <a href={props.demo} target="_blank" rel="norefff">
