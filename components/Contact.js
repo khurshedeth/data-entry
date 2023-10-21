@@ -17,7 +17,7 @@ function Contact() {
           transition={{ duration: 1 }}
           className=" text-[2rem] font-bold mb-[2rem] text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-400"
         >
-          Do not be unknown
+          Do not be Unknown
         </motion.h1>
         <motion.div
           initial={{ x: 0, y: 0 }}
