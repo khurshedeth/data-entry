@@ -15,6 +15,7 @@ function NavBar() {
 
   const downloadResume = () => {
     const resumeUrl = "/Md_Nio.pdf";
+    const link=document.createElement("a")
     link.href = resumeUrl;
     link.download = "khurshid-CV"; 
     link.click();
