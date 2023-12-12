@@ -14,10 +14,9 @@ function NavBar() {
   };
 
   const downloadResume = () => {
-    const resumeUrl = "/Hyd_CV.pdf"; // Make sure this path matches the location of your PDF in the public folder
-    const link = document.createElement("a");
+    const resumeUrl = "/Md_Nio.pdf";
     link.href = resumeUrl;
-    link.download = "Hyd_CV.pdf"; // Set the desired download filename
+    link.download = "khurshid-CV"; 
     link.click();
   };
 

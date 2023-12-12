@@ -5,7 +5,7 @@ import Project_1 from "../assets/Pro-1.png";
 import Project_2 from "../assets/Pro-2.png";
 import Project_3 from "../assets/Pro-3.png";
 import Project_4 from "../assets/Pro-4.png";
-import Project_5 from "../assets/Pro-5.png";
+import blinkexam from "../assets/blinkexam.png"
 import Project_6 from "../assets/updated .png";
 
 function Projects() {
@@ -59,11 +59,11 @@ function Projects() {
           github="https://github.com/khurshedeth/"
         />
         <Project
-          img={Project_5}
-          desc="Employee Management System is a comprehensive solution designed to optimize the management of employee"
-          title="AN Employee Manaagement System (developing)"
-          demo="https://emp-mng-api.vercel.app/"
-          github="https://github.com/khurshedeth/EmpMngAPI"
+          img={blinkexam}
+          desc="Its an client registration portal where a student. and parent can also register to track the chlid progress"
+          title="Blinkexam is an online test platform"
+          demo="https://clientuat.blinkexam.com/"
+          github="https://github.com/khurshedeth/"
         />
         <Project
           img={Project_6}
