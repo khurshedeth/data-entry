@@ -27,7 +27,7 @@ function Hero() {
         </h3>
         <h3 className=" text-[3rem] max-md:text-[1.5rem]">
           I am frontend developer
-          <br /> and Web3 enthusiast
+          <br /> and   Software Testing enthusiast
         </h3>
         <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
           <a href="https://github.com/khurshedeth/" target="_blank" rel="error">
