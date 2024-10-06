@@ -26,13 +26,11 @@ function Hero() {
           Khurshed Aalam
         </h3>
         <h3 className=" text-[3rem] max-md:text-[1.5rem]">
-          I am frontend developer
-          <br /> and   Software Testing enthusiast
+          I am Data Entry Operator
+          <br /> and Developer
         </h3>
         <div className=" flex gap-[1rem] mt-[4rem] max-md:mt-[2rem]">
-          <a href="https://github.com/khurshedeth/" target="_blank" rel="error">
-            <AiFillGithub className="w-[30px] h-[30px] cursor-pointer" />
-          </a>
+          
           <a
             href="https://www.linkedin.com/in/khurshd-alam/"
             target="_blank"
@@ -40,9 +38,7 @@ function Hero() {
           >
             <AiFillLinkedin className=" w-[30px] h-[30px] cursor-pointer" />
           </a>
-          <a href="https://twitter.com/khurshedeth" target="_blank" rel="rela">
-            <AiFillTwitterCircle className=" w-[30px] h-[30px] cursor-pointer" />
-          </a>
+          
         </div>
       </motion.div>
       <motion.div

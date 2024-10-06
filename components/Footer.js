@@ -31,13 +31,7 @@ function Footer() {
           >
             <AiFillLinkedin  className=" w-[20px] h-[20px]"/>
           </a>
-          <a
-          href="https://github.com/khurshedeth/"
-            target="_blank"
-            rel="noreff"
-            className=" text-gray-500 hover:text-white">
-            <AiFillGithub  className=" w-[20px] h-[20px]"/>
-          </a>
+          
           <a
           href="https://twitter.com/eth_parzivaleth"
             target="_blank"

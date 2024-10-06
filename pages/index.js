@@ -19,7 +19,7 @@ export default function Home() {
         <NabBar />
         <Hero />
         <About />
-        <Projects/>
+       
         <Contact/>
         <Footer/>
       </main>

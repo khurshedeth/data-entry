@@ -34,14 +34,10 @@ function About() {
           className=" w-[100%] flex flex-col gap-[2rem]"
         >
           <h1 className=" text-[2.5rem] max-md:text-[2rem]">
-          Frontend engineer focused on React and Testing
+          Data Entry Operator focused on Developement
           </h1>
           <p className="text-[#838697] text-[2rem] max-md:text-[1.5rem]">
-            After dedicating a year to frontend development, I have fortified my
-            foundational knowledge in web engineering. I am now enthusiastic
-            about applying these skills to tackle complex projects that will not
-            only enhance my current skill set but also broaden my technological
-            repertoire.
+          After dedicating a year to data entry operations, I have strengthened my foundational knowledge in data management and administrative tasks. I am now eager to apply these skills to handle more complex projects, which will not only enhance my current abilities but also expand my expertise in data systems and office technologies.
           </p>
         </motion.div>
       </div>
