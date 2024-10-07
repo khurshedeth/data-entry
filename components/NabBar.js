@@ -14,10 +14,10 @@ function NavBar() {
   };
 
   const downloadResume = () => {
-    const resumeUrl = "/Khurshi_test.pdf";
+    const resumeUrl = "/Data_Entry.pdf";
     const link=document.createElement("a")
     link.href = resumeUrl;
-    link.download = "khurshid-CV"; 
+    link.download = "Data_Entry"; 
     link.click();
   };
 
